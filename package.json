@@ -1,0 +1,10 @@
+{
+  "name": "app1",
+  "version": "0.1.0",
+  "main": "electron.js",
+  "scripts": {
+    "start": "electron ./",
+    "build": "electron-packager ./ 'App1' --platform=darwin --arch=x64 --version=1.2.2 --icon=icns.icns  --overwrite --asar=true",
+    "delete": "rm -R App1-darwin-x64/"
+  }
+}
